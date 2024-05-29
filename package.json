@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "mocha test.js"
+    "build": "echo 'No build step defined'"
   },
   "author": "",
   "license": "ISC",
