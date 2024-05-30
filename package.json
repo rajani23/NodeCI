@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "mocha --timeout 10000 test.js"
+    "build": "echo 'No build step defined'"
+
   },
   "author": "",
   "license": "ISC",
@@ -17,4 +19,5 @@
     "chai-http": "^4.3.0",
     "mocha": "^10.4.0"
   }
+  
 }
