@@ -1,20 +1,21 @@
 {
-  "name": "node_ci",
+  "name": "nodeci",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js application",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "build": "echo 'No build step defined'"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
-    "mocha": "^10.4.0"
-  }
+    "mocha": "^9.1.3"
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }
